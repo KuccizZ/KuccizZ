@@ -1,0 +1,187 @@
+<style>
+        @keyframes transitionIn {
+            from {
+                opacity: 0;
+                transform: rotateX(-90deg)
+            }
+
+            to {
+                opacity: 1;
+                transform: rotateX(0)
+            }
+        }
+
+        body {
+            background-color: #3aafa9;
+        }
+
+        article {
+            max-width: 900px;
+            padding: 10px;
+            margin: 0 auto;
+        }
+
+        .Myname {
+            color: #17252a;
+            animation: transitionIn 2s;
+        }
+
+        h2 {
+            font-family: 'Press Start 2P', cursive;
+            margin: -70px auto 0 0;
+            text-align: center;
+            font-size: 16px;
+            color: #def2f1;
+            animation: transitionIn 3s;
+        }
+
+        div {
+            margin: 60px 0px 80px 0;
+            text-align: left;
+            font-family: 'Fredoka', sans-serif;
+            color: aliceblue;
+            font-size: 24px;
+        }
+
+        p {
+            margin: 40px 0 0 0;
+        }
+
+        .home {
+            margin: 75px 0px 80px 0;
+            animation: transitionIn 3s;
+        }
+
+        .email {
+            text-decoration: none;
+            font-family: 'Major Mono Display', monospace;
+            margin: 130px 20px 10px 0;
+            border: 2px solid white;
+            padding: 20px 20px;
+            color: aliceblue;
+            border-radius: 10px;
+            font-size: 27px;
+            animation: transitionIn 1.2s;
+        }
+
+        .email:hover{
+            font-weight: bolder;
+        }
+
+        .link {
+            font-family: 'Fredoka One', cursive;
+            color: #2b7a78;
+            text-decoration: grammar-error;
+        }
+
+        .link:hover {
+            color: #17252a;
+        }
+
+        .link2:hover {
+            font-weight: bold;
+        }
+
+        .intro {
+            display: table;
+            margin: 150px auto 100px auto;
+            font-family: 'Fredoka One', cursive;
+            font-size: 64px;
+            color: white;
+            animation: transitionIn 1s;
+        }
+
+        .about_img img {
+            float: right;
+            border: 4px solid white;
+            border-radius: 20px 20px 20px 20px;
+            margin: 0 0 40px 0;
+        }
+
+        .about_content {
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        .about_img, .about2 {
+            margin: 30px 20px 80px 0;
+            text-align: left;
+            font-family: 'Fredoka', sans-serif;
+            color: #17252a;
+            border-color: #2b7a78;
+            font-size: 24px;
+        }
+
+        .experience {
+            margin-top: 250px;
+            padding-top: 100px;
+        }
+
+        .exp_grid {
+            max-width: 250px;
+            margin: 0;
+        }
+
+        .exp_border {
+            display: flex;
+            flex-direction: column;
+            border: 5px;
+            border-radius: 15px;
+            background-color: #2b7a78;
+            padding: 20px;
+        }
+
+        .box1{
+            border-radius: 25px;
+            background-color:#2f9995;
+            border-color:transparent;
+            text-align: center;
+            font-family: 'Fredoka One', sans-serif;
+            color: white;
+            font-size: 24px;
+            padding: 20px;
+            margin: 5px 5px;
+            min-width: 150px;
+            width: 150px;
+            min-height: 100px;
+            height: 100px;
+            transition: 0.5s;
+        }
+
+        .box1:hover{
+            height: 300px;
+            width: 200px;
+            transition: 0.5s;
+            font-size: 19px;
+        }
+
+        .container{
+            padding: 0 100px 0 150px;
+            max-width: 900px;
+            display: flex; 
+            flex-wrap: wrap;
+        }
+
+        .sidelink {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: fixed;
+            margin: 350px 0 0 20px;
+        }
+
+        @media (max-width: 1200px) {
+            h2 {
+                font-size: 12px;
+            }
+
+            .container{
+                align-items: center;
+            }
+
+            .sidelink {
+                display: none;
+            }
+        }
+</style>
