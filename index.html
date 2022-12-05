@@ -25,9 +25,9 @@
         </a>
         <a href="#experience" class="link">
             experience
-        </a>
-        <a href="https://github.com/KuccizZ" class="link">
-            github.com
+        </a><br>
+        <a href="https://github.com/KuccizZ" class="link" onmouseover="gitty()" onmouseout="getto()">
+            <img src="github.png" id="github" width="25">.com
         </a>
     </div>
 
@@ -104,6 +104,14 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init();
+
+    function gitty(){
+       document.getElementById("github").src = "github2.png";
+    }
+
+    function getto(){
+        document.getElementById("github").src = "github.png";
+    }
     </script>
 </body>
 </html>
